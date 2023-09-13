@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height:100%;
+  /* position: relative; */
+  background-image: url(./love-bg.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.love{
+  width: 30%;
+  /* height: 50%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.love h2{
+  text-align: center;
+  /* color: rgb(253, 191, 201); */
+}
+
+.inputs{
+  margin-top: 1.6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputs input{
+  outline: none;
+  width: 40%;
+  padding: 3px 9px;
+  border: 1px solid rgb(247, 149, 149);
+  border-radius: 4px;
+  font-size: 20px;
+  transition: all linear .2s;
+}
+.inputs input::placeholder{
+  color: red;
+}
+.inputs input:hover{
+  box-shadow: 5px 5px 5px -5px black;
+  border-bottom: 1px solid black;
+  transform: scale(1.2);
+}
+.btn{
+  width: 100%;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+
+}
+.btn button{
+  /* margin-top: 1.5rem;
+  /* margin: auto;  */
+  /* text-align: center; */
+  background-color: transparent;
+  /* margin-left: 15px; */
+  padding: 20px 20px;
+  border: 1px solid rgb(247, 149, 149);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all linear .2s;
+}
+
+.btn button:hover{
+  /* box-shadow: inset  8px 7px 10px #f0c0ff ; */
+  box-shadow: 10px 10px 8px -4px black ;
+  transform: scale(.9);
+  /* border: 1px solid black; */
+}
+h3{
+margin-top: 1.8rem;
+text-align: center;
+cursor: pointer;
+transition: all linear .4s;
+}
+h3:hover{
+  transform: scale(1.6);
+}
+p{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.fa-arrows-rotate{
+  font-size: 20px;
+  color: red;
+  padding: 5px 5px;
+  border: 1px solid rgb(177, 59, 59);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.fa-arrows-rotate:hover{
+  background-color: white;
+  transform: scale(1.2);
+  border: 1px solid red;
+}
+
+/* .fa-heart{
+  align-self: center;
+  font-size: 20px;
+  color: red;
+} */
